@@ -20,6 +20,6 @@ public :
 
 int main()
 {
-	cout << "Привет мир !!!\n";
+	Car obj[2]{};
 	 
 }
