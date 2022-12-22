@@ -11,6 +11,10 @@ public :
 		name = new char[strlen(n) + 1];
 		strcpy_s(name, strlen(n) + 1, n);
 	}
+	~Car()
+	{
+		delete[]name;
+	}
 	
 };
 
